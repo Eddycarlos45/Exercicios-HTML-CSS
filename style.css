@@ -8,8 +8,10 @@ main h1{
     margin:0;
     
 }
-h2{
+main h2{
 font-family: sans-serif;
+font: bold;
+font-size: 40px;
 
 }
 blockquote {
@@ -23,5 +25,11 @@ blockquote {
 
 aside {
     background-color: #3C1D3D;
-    color: #F2FFFC
+    text-align: center;
+    width: 300px;
+}
+ul li{
+    list-style-type:none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
