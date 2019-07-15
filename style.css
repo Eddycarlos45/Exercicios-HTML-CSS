@@ -4,9 +4,24 @@ main h1{
     color: white;
     text-align: center;
     font-family: Arial;
+    padding: 20px;
+    margin:0;
     
 }
 h2{
 font-family: sans-serif;
 
+}
+blockquote {
+    background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px #c2ccca solid;
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC
 }
