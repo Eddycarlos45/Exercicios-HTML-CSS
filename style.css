@@ -6,6 +6,7 @@ main h1{
     font-family: Arial;
     padding: 20px;
     margin:0;
+    border-bottom:10px black solid;
     
 }
 main h2{
@@ -28,8 +29,44 @@ aside {
     text-align: center;
     width: 300px;
 }
-ul li{
-    list-style-type:none;
-    color: white;
+
+p {
+	text-align: justify;
+    margin: 20px 0;
+}
+aside a {
+    color: #D9E5E3;
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type:none;
+}
+aside h1 {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer{
+    background-color: black;
+    color: #D9E5E3;
+    font-size: 15px;
+    padding: 10px;
+}
+.icones-sociais li{
+    display: inline-block;
+}
+.icones-sociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    text-indent: -9999px;
+   
+}
+.github{
+    background-image:url(projeto/github.png);
+}
+.twitter{
+    background-image: url(projeto/twitter.png);
+}
+.linkedin{
+    background-image: url(projeto/linkedin.png);
 }
