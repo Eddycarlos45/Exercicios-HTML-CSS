@@ -25,3 +25,14 @@
 .citacao-bio:nth-of-type(even):hover {
     transform: scale(1.2) rotate(-5deg);
 }
+.citacao-bio::before {
+    content: '“';
+    position: absolute;
+    font-size: 10em;
+    color: #bbb;
+    line-height: .8
+}
+
+.citacao-bio > p {
+    position: relative;
+}
