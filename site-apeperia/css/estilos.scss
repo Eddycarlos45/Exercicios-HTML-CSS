@@ -12,9 +12,9 @@ $cor-padrao: #c24e4b;
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
-@mixin borda-arredondada {
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
+@mixin borda-arredondada($raio: 0.3em) {
+  -webkit-border-radius: $raio;
+  border-radius: $raio;
 }
 
 /** Geral **/
@@ -114,7 +114,7 @@ header .container {
   border: 0;
   padding: 0.6em;
   font-size: 1.2em;
-  @include borda-arredondada();
+  @include borda-arredondada(50px);
   @include sombra();
   font-weight: bold;
 }
