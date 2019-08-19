@@ -27,7 +27,7 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #66DDDD;
+  border-top: 5px solid #c24e4b;
   background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
@@ -41,7 +41,7 @@ header .container {
 .menu-opcoes {
   position: absolute;
   right: 0;
-  top: -.5em;
+  top: -0.5em;
   font-size: 1.2em;
   font-weight: lighter;
 }
@@ -67,7 +67,6 @@ header .container {
 /** Destaque **/
 .destaque {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
-  -webkit-background-size: cover;
   background-size: cover;
   color: white;
   height: 330px;
@@ -91,16 +90,15 @@ header .container {
 
 .destaque button {
   margin-top: 1em;
-  background: #66DDDD;
+  background: #c24e4b;
   border: 0;
-  padding: .6em;
+  padding: 0.6em;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
-
 
 /** Sobre **/
 .sobre {
@@ -109,9 +107,9 @@ header .container {
 
 .duas-colunas {
   -webkit-column-count: 2;
-  -moz-column-count: 2;
   column-count: 2;
-  columns: 1;
+  -webkit-columns: 1;
+          columns: 1;
 }
 
 .duas-colunas h3 {
@@ -119,7 +117,7 @@ header .container {
 }
 
 .sobre p {
-  font: .9em/1.8 sans-serif;
+  font: 0.9em/1.8 sans-serif;
 }
 
 .sobre p:first-child {
@@ -181,16 +179,16 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #66DDDD;
+  background: #c24e4b;
   text-align: center;
   height: 2em;
-  padding-top: .6em;
+  padding-top: 0.6em;
   margin-top: 0;
 }
 
 .plano div {
   text-align: center;
-  color: #66DDDD;
+  color: #c24e4b;
   font-size: 2.75em;
 }
 
@@ -202,7 +200,7 @@ header .container {
   font-size: 1em;
   list-style: none;
   border-bottom: 1px solid #acacac;
-  padding: .5em;
+  padding: 0.5em;
   width: 14.8em;
 }
 
@@ -215,19 +213,20 @@ header .container {
 }
 
 .plano button {
-  background: #66DDDD;
+  background: #c24e4b;
   border: 0;
   color: #fff;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
+.icone-check,
+.icone-x {
   background: url(../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
@@ -241,8 +240,6 @@ header .container {
   background-position: -33px -5px;
 }
 
-
-
 /** Blog **/
 .blog {
   display: block;
@@ -253,7 +250,7 @@ header .container {
   content: "";
   background: url(../imagens/fundo.png);
   background-size: 25px 25px;
-  opacity: .15;
+  opacity: 0.15;
   top: 0;
   left: 0;
   bottom: 0;
@@ -304,24 +301,23 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
   padding: 4px 8px;
-  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   border: 2px solid #ccc;
 }
 
 .contato button {
   margin: 0 auto;
-  background: #66DDDD;
+  background: #c24e4b;
   border: 0;
   color: #fff;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
 /** Footer **/
@@ -333,7 +329,7 @@ footer {
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
-  opacity: .02;
+  opacity: 0.02;
   top: 0;
   left: 0;
   bottom: 0;
@@ -423,3 +419,4 @@ footer a {
 .social a[href*="instagram"] {
   background-image: url(../imagens/instagram.png);
 }
+/*# sourceMappingURL=estilos.css.map */
