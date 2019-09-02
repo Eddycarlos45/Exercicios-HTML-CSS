@@ -23,8 +23,16 @@
 }
 
 .rodapePrincipal-contatoForm {
-    width: 25%;
+  width: 25%;
 }
-.rodapePrincipal-contatoForm-fieldset{
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+/*cursos*/
+.rodapePrincipal-navMap-list {
     display: flex;
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;      
 }
