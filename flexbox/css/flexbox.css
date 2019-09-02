@@ -31,17 +31,27 @@
 
 /*cursos*/
 .rodapePrincipal-navMap-list {
-    display: flex;
-    height: 250px;
-    flex-direction: column;
-    flex-wrap: wrap;      
-}
-/*formaçoes*/
-.conteudoPrincipal-cursos{
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.conteudoPrincipal-cursos-link{
-    width: 20%;
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 20%;
+}
+/*video*/
+.videoSobre .container {
+  display: flex;
+  justify-content: center;
+}
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
