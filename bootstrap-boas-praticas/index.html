@@ -92,52 +92,73 @@
       </figcaption>
     </figure>
   </section>
-  <h3 class="container titulo-depoimentos"> Depoimento dos Clientes</h3>
+  <section>
+    <h2 class="container titulo-depoimentos"> Depoimento dos Clientes</h2>
     <!-- Carousel -->
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-  
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <figure class="item active">
-        <img  src="img/depoimentos/projetos0.png">
-        <figcaption class="carousel-caption">
-          <h3>Edson Carlos</h3>
-          <p>Melhor empresa da região</p>
-        </figcaption>
-      </figure>
-      <figure class="item">
-        <img src="img/depoimentos/projetos1.png">
-        <figcaption class="carousel-caption">
-          <h3>João Paulo</h3>
-          <p>Excelentes no que fazem</p>
-        </figcaption>
-      </figure>
-      <figure class="item">
-        <img src="img/depoimentos/projetos2.png">
-        <figcaption class="carousel-caption">
-          <h3>Mario Brós</h3>
-          <p>Ótima empresa, gostei muito do trabalho de vocês</p>
-        </figcaption>
-      </figure>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <figure class="item active">
+          <img src="img/depoimentos/projetos0.png">
+          <figcaption class="carousel-caption">
+            <h3>Edson Carlos</h3>
+            <p>Melhor empresa da região</p>
+          </figcaption>
+        </figure>
+        <figure class="item">
+          <img src="img/depoimentos/projetos1.png">
+          <figcaption class="carousel-caption">
+            <h3>João Paulo</h3>
+            <p>Excelentes no que fazem</p>
+          </figcaption>
+        </figure>
+        <figure class="item">
+          <img src="img/depoimentos/projetos2.png">
+          <figcaption class="carousel-caption">
+            <h3>Mario Brós</h3>
+            <p>Ótima empresa, gostei muito do trabalho de vocês</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  </section>
+  <section>
+    <!-- Vídeo -->
+    <div class="container">
+      <h2 class="video-title">Vídeo Institucional</h2>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZY3-MFxVdEw" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- Formulario -->
+  <h2>Contato</h2>
+  <p>Entre em contato conosco</p>
+  <label for="contato-nome">Nome:</label>
+  <input type="text" placeholder="Seu Nome" class="form-control" id="contato-nome">
+  <label for="contato-email">Nome:</label>
+  <div class="input-group">
+    <div class="input-group-addon">@</div>
+    <input type="text" placeholder="Seu e-mail" class="form-control" id="contato-email">
   </div>
-  
 </body>
 <script src="jquery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
