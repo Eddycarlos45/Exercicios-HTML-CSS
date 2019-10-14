@@ -13,3 +13,13 @@
 .video-title{
     font-weight: bold;
 }
+
+.form-select,
+.group-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.group-radio .radio:first-child {
+    margin-top: 0;
+}

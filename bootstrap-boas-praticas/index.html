@@ -150,15 +150,38 @@
     </div>
   </section>
   <!-- Formulario -->
-  <h2>Contato</h2>
-  <p>Entre em contato conosco</p>
-  <label for="contato-nome">Nome:</label>
-  <input type="text" placeholder="Seu Nome" class="form-control" id="contato-nome">
-  <label for="contato-email">Nome:</label>
-  <div class="input-group">
-    <div class="input-group-addon">@</div>
-    <input type="text" placeholder="Seu e-mail" class="form-control" id="contato-email">
-  </div>
+  <section>
+    <h2>Contato</h2>
+    <p>Entre em contato conosco</p>
+    <label for="contato-nome">Nome:</label>
+    <input type="text" placeholder="Seu Nome" class="form-control" id="contato-nome">
+    <label for="contato-email">Nome:</label>
+    <div class="input-group">
+      <div class="input-group-addon">@</div>
+      <input type="text" placeholder="Seu e-mail" class="form-control" id="contato-email">
+    </div>
+    <div class="group-radio">
+      <div class="radio">
+        <label>
+          <input type="radio" name="tipo-pessoa">
+          Pessoa Física
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="tipo-pessoa">
+          Pessoa Jurídica
+        </label>
+      </div>
+    </div><!--
+    --><select class="form-control form-select">
+      <option selected disabled>Tipo de Situação</option>
+      <option value="">Casa</option>
+      <option value="">Apartamento</option>
+      <option value="">Mansão</option>
+    </select>
+    <button class="btn btn-primary"type="submit">Enviar</button>
+  </section>
 </body>
 <script src="jquery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
