@@ -9,7 +9,29 @@
 </head>
 
 <body>
-  <section class="container">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+      </div>
+      <div class="collapse navbar-collapse" id="collapse-navbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#sobre-nos">Sobre Nós</a></li>
+          <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+  </nav>
+  <section id="sobre-nos" class="container">
     <h2>Sobre Nós</h2>
     <img class="img-responsive" src="img/empresa.jpg" alt="">
     <div class="panel-group" id="painel-sobre">
@@ -54,7 +76,7 @@
       <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
     </div>
   </div>
-  <section class="container">
+  <section id="nossos-projetos" class="container">
     <h2>Nossos Projetos</h2>
     <figure class="thumbnail">
       <img src="img/projetos/casa-castelo.png" alt="Foto do castelo">
@@ -92,7 +114,7 @@
       </figcaption>
     </figure>
   </section>
-  <section>
+  <section id="depoimentos">
     <h2 class="container titulo-depoimentos"> Depoimento dos Clientes</h2>
     <!-- Carousel -->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -139,7 +161,7 @@
       </a>
     </div>
   </section>
-  <section>
+  <section id="video">
     <!-- Vídeo -->
     <div class="container">
       <h2 class="video-title">Vídeo Institucional</h2>
@@ -150,7 +172,7 @@
     </div>
   </section>
   <!-- Formulario -->
-  <section class="container">
+  <section id="contato" class="container">
     <h2>Contato</h2>
     <p>Entre em contato conosco</p>
     <label for="contato-nome">Nome:</label>
@@ -173,14 +195,15 @@
           Pessoa Jurídica
         </label>
       </div>
-    </div><!--
+    </div>
+    <!--
     --><select class="form-control form-select">
       <option selected disabled>Tipo de Situação</option>
       <option value="">Casa</option>
       <option value="">Apartamento</option>
       <option value="">Mansão</option>
     </select>
-    <button class="btn btn-primary"type="submit">Enviar</button>
+    <button class="btn btn-primary" type="submit">Enviar</button>
   </section>
   <footer>
     <address>
