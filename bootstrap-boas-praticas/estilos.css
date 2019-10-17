@@ -1,36 +1,60 @@
 #painel-sobre {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .titulo-depoimentos {
-    background-color: #0275D8;
-    color: #FFF;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 0;
+  background-color: #0275d8;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 0;
 }
 
-.video-title{
-    font-weight: bold;
+.video-title {
+  font-weight: bold;
 }
 
 .form-select,
 .group-radio {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
 }
 .group-radio .radio:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 footer {
-    background-color: #333;
-    color: #FFF;
-    padding: 20px;
-    margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 10px;
 }
 
 footer address:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+header {
+  background-position: top center;
+  background-size: cover;
+  background-image: url("img/castelo.jpg");
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 50%);
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px;
+  width: 80%;
+}
+header h1 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
